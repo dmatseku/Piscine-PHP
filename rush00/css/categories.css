@@ -1,0 +1,83 @@
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0 0 2vw;
+    background: #99AAB5;
+}
+
+main {
+    padding: 0;
+    margin: 0 auto;
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+button, input, h2, p {
+    outline-width: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    padding: 0;
+    margin: 0;
+    border-width: 0;
+}
+
+#title {
+    width: 100%;
+    height: 2.5vw;
+    margin-top: 0.5vw;
+    background-color: #2C2F33;
+    color: #FFFFFF;
+    font-size: 1.4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#empty {
+    width: 100%;
+    font-size: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #00000077;
+}
+
+.category {
+    height: 2.5vw;
+    width: 33%;
+    position: relative;
+    margin-right: 0.5%;
+    margin-top: 0.5vw;
+    background-color: #2C2F33;
+}
+
+.category_form {
+    height: 100%;
+    width: 100%;
+}
+
+.category:nth-child(3n+4) {
+    margin-right: 0;
+}
+
+.category_button {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    background-color: unset;
+    font-size: 1.4vw;
+    border: 0.1vw solid #FFFFFF00;
+    transition: border-color 0.2s linear;
+    cursor: pointer;
+}
+
+.category_button:hover {
+    border-color: #FFFFFF;
+}

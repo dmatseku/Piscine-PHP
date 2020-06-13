@@ -1,0 +1,36 @@
+.admin_edit_button {
+    height: 2vw;
+    width: 2vw;
+    position: absolute;
+    z-index: 3;
+    top: 0.5vw;
+    right: 3vw;
+}
+
+.admin_edit_button>button {
+    outline-width: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    padding: 0;
+    margin: 0;
+    background-color: unset;
+    height: 100%;
+    width: 100%;
+    border-radius: 0.3vw;
+    border: 0.1vw solid #FFFFFF00;
+    transition: border-color 0.2s linear;
+    cursor: pointer;
+}
+
+.admin_edit_button>button:hover {
+    border-color: #FFFFFF;
+}
+
+.admin_edit_button>button>img {
+    height: 90%;
+    width: 90%;
+    object-fit: contain;
+    object-position: 50% 50%;
+}

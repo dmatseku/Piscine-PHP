@@ -1,0 +1,99 @@
+button, input, h2, p {
+    outline-width: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    padding: 0;
+    margin: 0;
+    border-width: 0;
+}
+
+.admin_panel {
+    height: 100vh;
+    width: 15%;
+    position: fixed;
+    top: 0;
+}
+
+#admin_panel_left {
+    left: 0;
+}
+
+#admin_panel_right {
+    right: 0;
+}
+
+.admin_form {
+    height: 25%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: #2C2F33;
+    color: #FFFFFF;
+    border: solid #FFFFFF;
+    border-width: 0.05vw 0.1vw;
+}
+
+.admin_title {
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8vw;
+}
+
+.admin_error {
+    height: 10%;
+    display: flex;
+    align-items: center;
+    font-size: 1.2vw;
+    color: #FF0000;
+}
+
+.admin_inputs {
+    height: 70%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.admin_input {
+    height: 25%;
+    width: 95%;
+    padding-left: 5%;
+    font-size: 1.3vw;
+    border-radius: 0.8vw;
+}
+
+.admin_button {
+    height: 25%;
+    width: 100%;
+    font-size: 1.3vw;
+    background-color: #00000000;
+    color: #FFFFFF;
+    border: 0.1vw solid #FFFFFF;
+    border-radius: 0.8vw;
+    transition-property: background-color, color;
+    transition: 0.2s linear;
+    cursor: pointer;
+}
+
+.admin_button:hover {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+#admin_link_product {
+    height: 25%;
+    width: 100%;
+    text-decoration: none;
+}
+
+#admin_button_product {
+    height: 100%;
+}
